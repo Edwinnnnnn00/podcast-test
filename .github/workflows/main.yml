@@ -19,7 +19,7 @@ jobs:
       - name: Push Repo
         run: |
           git config user.name github-actions
-          git congif user.email github-actions@githun.com
+          git config user.email github-actions@githun.com
           git add .
           git commit -m "Modified Feed"
           git push
